@@ -1,6 +1,6 @@
 # NestSocial
 
-**NestSocial** is a social media application built with NestJS, allowing users to create, view, and interact with posts. This application features user registration, authentication, and functionalities such as liking and unliking posts, all while utilizing a relational database (MySQL) with Sequelize/TypeORM for data management.
+**NestSocial** is a social media API built with NestJS, allowing users to create, view, and interact with posts. This application features user registration, authentication, and functionalities such as liking and unliking posts, all while utilizing a relational database (MySQL) with Sequelize/TypeORM for data management.
 
 ## Features
 
