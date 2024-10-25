@@ -26,7 +26,7 @@
 1. Clone the repo
    
    ```sh
-   git clone https://github.com/rabarbar15/User-Post-management-API.git
+   git clone https://github.com/rabarbar15/Nest-social.git
    ```   
 2. Go to project directory and build  
      
