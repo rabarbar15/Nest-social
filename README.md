@@ -1,22 +1,32 @@
-## Task description  
+# NestSocial
 
-1. You should reuse the project from homework number 4    
-2. You should store data in the DB instead of in-memory    
-3. You should add migrations to create all tables and relations     
-4. You should add migrations to fill DB with minimum 10 records for each entity     
-5. You should create ORM models for each entity of the DB     
-6. Apply pagination, sorting and filtering functionality to each request that returns multiple records     
+**NestSocial** is a social media application built with NestJS, allowing users to create, view, and interact with posts. This application features user registration, authentication, and functionalities such as liking and unliking posts, all while utilizing a relational database (MySQL) with Sequelize/TypeORM for data management.
 
-You need to create endpoints to implement these user stories:    
-As Authorized User I want to get a list of all users with their first post and amount of likes for this post. NOTE: make get of this data with a single SQL query using plain SQL     
-  
+## Features
+
+- User registration and login with JWT authentication
+- Create, view, update, and delete posts
+- Like and unlike posts
+- Pagination, sorting, and filtering of user and post data
+- Retrieve a list of all users with their first post and the amount of likes
+- Back up user's data
+
+## Technologies Used
+
+- **Backend Framework**: NestJS
+- **Language**: Typescript
+- **Database**: MySQL
+- **ORM**: Sequelize
+- **Authentication**: JWT
+- **Validation**: class-validator
+- **Logging**: Winston
 
 ## Installation    
 
 1. Clone the repo
    
    ```sh
-   git clone -b homework5 https://nodejs-course-2024-gitlab.codelx.dev/nodejs-courses-2024-georgia/kamil-piskorz.git
+   git clone https://github.com/rabarbar15/User-Post-management-API.git
    ```   
 2. Go to project directory and build  
      
@@ -27,8 +37,8 @@ As Authorized User I want to get a list of all users with their first post and a
 
 JWT_SECRET=super_secret_key    
 DATABASE_USERNAME=root     
-DATABASE_PASSWORD=     
-DATABASE_NAME=leverx_db     
+DATABASE_PASSWORD=    
+DATABASE_NAME=nest_db     
 
 4. Run with npm
      
