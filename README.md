@@ -20,6 +20,7 @@
 - **Authentication**: JWT
 - **Validation**: class-validator
 - **Logging**: Winston
+- **Documentation**: Swagger   
 
 ## Installation    
 
@@ -44,7 +45,12 @@ DATABASE_NAME=nest_db
      
    ```sh
    npm start
-   ```
+   ```  
+
 ## App preview   
 
-* Aplication will start on: `http://localhost:3000`
+* Aplication will start on: `http://localhost:3000`   
+
+## Documentation   
+
+* You can access it here: `http://localhost:3000/api`    
