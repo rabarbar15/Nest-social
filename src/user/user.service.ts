@@ -1,4 +1,4 @@
-import { Inject, Injectable } from '@nestjs/common';
+import { Inject, Injectable, NotFoundException } from '@nestjs/common';
 import { ProfileDto } from './dto/profile.dot';
 import { UpdateProfileDto } from './dto/updateProfile.dto';
 import { WINSTON_MODULE_PROVIDER } from 'nest-winston';
@@ -59,7 +59,7 @@ export class UserService {
 
         if (!user) {
             this.logger.error(`User with id ${id} not found`);
-            throw new Error('User not found');
+            throw new NotFoundException('User not found');
         }
 
         user.firstName = profile.firstName;
